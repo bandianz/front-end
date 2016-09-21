@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+ <head>
+	<meta name = "viewport" content = "width = device-width, user-scalable = no, minimum-scale = 1, maximum-scale = 1">
+	<!--这里是用来设置浏览器的兼容性的-->
+	<meta http-equiv = "X-UA-Compatible" content = "chrome = 1">
+	<meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8">
+  <title>HTML5一个模拟现实的物理效果，感受WEB技术的魅力</title>
+  <style>
+	body {
+		/*当元素溢出的时候，hidden裁剪，visible默认值，scroll修建但是有滚动条，auto如果被修建则有滚动条 inherit从父元素继承overflow属性*/
+		overflow: hidden; 
+		background: #000000;
+		user-select: none;
+		-webkit-select: none;
+		-o-user-select: none;
+		-ms-userpselect: none;
+		}
+  </style>
+  <link rel="stylesheet" type = "text/css" href = "init/init.css">
+ </head>
+ <body>
+	<div id = "canvas"></div>
+	<script src = "assets/protoclass.js"></script>
+	<script src = "assets/box2d.js"></script>
+	<script src = "assets/Main.js"></script>
+	<script src = "init/jquery.min.js"></script>
+ </body>
+</html>
